@@ -2,6 +2,14 @@
 
 by Philip Cullen
 
+## Table of Contents
+- Project Overview
+- Paper Summary
+- Why This Project is Useful
+- Technologies
+- Packages
+- Relevant Links/References
+
 ## Project Overview
 
 This project uses several different tools and packages to analyse the Iris Dataset.
@@ -14,6 +22,9 @@ The data for this project original comes from "The Use of Multiple Measuremanets
 
 ### Why this is relevant to data analytics
 Fisher's linear discrimiant statistical model served as the foundation for Linear Disciminant Analysis (LDA), also known as normal discriminant analysis (NDA) or discriminant function analysis (DFA). This enables analysts to visually explore, represent, and classify data. This model is used in machine learning, bioinformatics, financial modeling, and pattern recognicition. This allows analysts to take large complex datasets and simplify them while still preserving each classes unique information. By doing this it allows for better visualisation and interpretation of highly complex datsets.
+
+## Why this project is useful
+This project allows the user to see the different steps one can use to visualise and interpret data. To do this, it uses scatter plots, histograms, boxplots, heatmaps and pairplots. These combined with tools such as regression lines and data corelation can further enhancce the users ability to make reasonable observations about the data with is further helped with the addition of the aforementioned plots. Additionally, it provides the user with code that could be used to analyse different datasets. 
 
 ## Technologies
 - Python
@@ -29,7 +40,7 @@ Fisher's linear discrimiant statistical model served as the foundation for Linea
 - sklearn (required to import the dataset)
 - seaborn
 
-## Relavant Links/References
+## Relevant Links/References
 1) https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
 2) https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html
 3) https://gist.githubusercontent.com/netj/8836201/raw/6f9306ad21398ea43cba4f7d537619d0e07d5ae3/iris.csv
